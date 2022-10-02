@@ -18,7 +18,8 @@
 
 int flag = 1;
 
-// Sending the 
+//   Function to ensure that the full message has been sent 
+
 void	sendMessage(int fd,const std::string &msg)
 {
 	size_t total = 0;
